@@ -1,6 +1,7 @@
 import { CustomLogger, LogLevel } from "./CustomLogger";
 
 export class CustomLogManager {
+    // eslint-disable-next-line @typescript-eslint/no-empty-function
     private constructor() { }
 
     private static _loggers: CustomLogger[] = [];
