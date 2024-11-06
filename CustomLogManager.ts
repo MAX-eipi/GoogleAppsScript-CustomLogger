@@ -1,6 +1,4 @@
-import { CustomLogger, LogLevel } from "./CustomLogger";
-
-export class CustomLogManager {
+class CustomLogManager {
     // eslint-disable-next-line @typescript-eslint/no-empty-function
     private constructor() { }
 

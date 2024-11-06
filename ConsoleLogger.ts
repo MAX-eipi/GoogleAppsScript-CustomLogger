@@ -1,6 +1,4 @@
-import { CustomLogger, LogLevel } from "./CustomLogger";
-
-export class ConsoleLogger implements CustomLogger {
+class ConsoleLogger implements CustomLogger {
     log(level: LogLevel, message: object): void {
         switch (level) {
             case LogLevel.Debug:
